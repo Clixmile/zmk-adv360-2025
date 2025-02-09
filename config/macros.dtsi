@@ -14,8 +14,6 @@ macro_oe: macro_oe{
 compatible = "zmk,behavior-macro";
 label = "macro_oe";
 #binding-cells = <0>;
-#MacOS
-#bindings = <&kp LA(U)>, <&kp O>;
 #Windows
 bindings = <&kp LC>, <&kp RA(U)>, <&kp O>;
 };
@@ -23,8 +21,6 @@ macro_ae: macro_ae{
 compatible = "zmk,behavior-macro";
 label = "macro_ae";
 #binding-cells = <0>;
-#MacOS
-#bindings = <&kp LA(U)>, <&kp A>;
 #Windows
 bindings = <&kp LC>, <&kp RA(U)>, <&kp A>;
 };
@@ -32,8 +28,6 @@ macro_ue: macro_ue{
 compatible = "zmk,behavior-macro";
 label = "macro_ue";
 #binding-cells = <0>;
-#MacOS
-#bindings = <&kp LA(U)>, <&kp U>;
 #Windows
 bindings = <&kp LC>, <&kp RA(U)>, <&kp U>;
 };
@@ -41,8 +35,6 @@ macro_oe_cap: macro_oe_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_oe_cap";
 #binding-cells = <0>;
-#MacOS
-#bindings = <&kp LA(U)>, <&kp LS(O)>;
 #Windows
 bindings = <&kp LC>, <&kp RA(U)>, <&kp LS(O)>;
 };
@@ -50,8 +42,6 @@ macro_ae_cap: macro_ae_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_ae_cap";
 #binding-cells = <0>;
-#MacOS
-#bindings = <&kp LA(U)>, <&kp LS(A)>;
 #Windows
 bindings = <&kp LC>, <&kp RA(U)>, <&kp LS(A)>;
 };
@@ -59,8 +49,6 @@ macro_ue_cap: macro_ue_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_ue_cap";
 #binding-cells = <0>;
-#MacOS
-#bindings = <&kp LA(U)>, <&kp LS(U)>;
 #Windows
 bindings = <&kp LC>, <&kp RA(U)>, <&kp LS(U)>;
 };
